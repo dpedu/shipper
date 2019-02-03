@@ -61,7 +61,6 @@ class TaskExecutor(object):
 
         # Extract post body if present - we decode json and pass through other types as-is
         payload = None
-        print("Login: ", cherrypy.request.login)
         if cherrypy.request.method == "POST":
             cl = cherrypy.request.headers.get('Content-Length', None)
             if cl:

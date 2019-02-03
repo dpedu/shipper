@@ -2,7 +2,7 @@
 from setuptools import setup
 import os
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 reqs = open(os.path.join(os.path.dirname(__file__), "requirements.txt")).read().split()
 
 
